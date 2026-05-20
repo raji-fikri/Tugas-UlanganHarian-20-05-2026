@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ujian</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: orange;
+        }
+
+        .semua{
+            margin-top: 190px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            gap: 3rem;
+        }
+
+        .tugas-1{
+            background-color: lightskyblue;
+            width: auto;
+            padding: 20px 65px;
+            border-radius: 30px;
+        }
+
+        .tugas-2{
+            background-color: lightskyblue;
+            width: auto;
+            padding: 58px 40px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <script src="tugas.js"></script>
+<div class="semua">
+    <div class="tugas-1">
+        <h1>Tugas 1</h1>
+            <h3>Cek Angka 50</h3>
+
+        <p>1st Number :</p>
+            <input type="number" id="angkaPertama" placeholder="masukkan angka">
+
+        <p>2nd Number :</p>
+            <input type="number" id="angkaKedua" placeholder="masukkan angka">
+        <br><br>
+        <button onclick="inputAngka()">Cek Kebenaran</button>
+        <h3 id="hasil"></h3>
+    </div>
+    <br>
+
+    <div class="tugas-2">
+        <h1>Tugas 2</h1>
+            <h3>Menentukan Nilai Kelulusan</h3>
+        <p>Masukkan Nilai Yang Mau di Cek :</p>
+        <input type="number" id="nilai" placeholder="masukkan nilai" >
+            <br><br>
+                <button onclick="cekNilai()">Cek Kelulusan</button>
+        <h3 id="status"></h3>
+    </div>
+</div>    
+</body>
+</html>
+</body>
+</html>
